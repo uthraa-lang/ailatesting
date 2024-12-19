@@ -1,0 +1,684 @@
+[{
+  "_id": {
+    "$oid": "67517e1817c3fa3dc972242a"
+  },
+  "executionId": "67517e1817c3fa3dc9722428",
+  "metrics": {
+    "metrics": [
+      {
+        "heading": "Coverage",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#e4cbaf",
+            "percentage": 50,
+            "label": "Informal language",
+            "id": 1
+          },
+          {
+            "color": "#ea7003",
+            "percentage": 50,
+            "label": "Short conversation",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Factuality",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#c3d0f1",
+            "percentage": 50,
+            "label": "Informal",
+            "id": 1
+          },
+          {
+            "color": "#0bb662",
+            "percentage": 50,
+            "label": "Noise Level - Noisy Environment",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Contradiction",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#a90772",
+            "percentage": 50,
+            "label": "Contradiction Handling",
+            "id": 1
+          },
+          {
+            "color": "#3bb5ad",
+            "percentage": 50,
+            "label": "Polite tone",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Exact Match",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#e6dd56",
+            "percentage": 50,
+            "label": "Formal conversation",
+            "id": 1
+          },
+          {
+            "color": "#f71695",
+            "percentage": 50,
+            "label": "Time Sensitivity",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Rouge",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#92615b",
+            "percentage": 50,
+            "label": "Information delivery",
+            "id": 1
+          },
+          {
+            "color": "#b5d0aa",
+            "percentage": 50,
+            "label": "Vague responses",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Toxicity",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#856304",
+            "percentage": 50,
+            "label": "Customer sentiment analysis",
+            "id": 1
+          },
+          {
+            "color": "#aabbb5",
+            "percentage": 50,
+            "label": "Harsh tone",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Coherence",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#6594ac",
+            "percentage": 50,
+            "label": "Urgency",
+            "id": 1
+          },
+          {
+            "color": "#4becc8",
+            "percentage": 50,
+            "label": "Incomplete conversation",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Completeness",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#756e39",
+            "percentage": 50,
+            "label": "Delayed service",
+            "id": 1
+          },
+          {
+            "color": "#615c86",
+            "percentage": 50,
+            "label": "Escalation handling",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Informativeness",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#c99a94",
+            "percentage": 50,
+            "label": "Critical information",
+            "id": 1
+          },
+          {
+            "color": "#e1d1e7",
+            "percentage": 50,
+            "label": "Instruction delivery",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Redundancy",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#d8a723",
+            "percentage": 50,
+            "label": "Repetitive requests",
+            "id": 1
+          },
+          {
+            "color": "#9fcd51",
+            "percentage": 50,
+            "label": "Pricing details",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Criminality",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#74b1da",
+            "percentage": 50,
+            "label": "Legal compliance",
+            "id": 1
+          },
+          {
+            "color": "#bd5fb2",
+            "percentage": 50,
+            "label": "Policy compliance",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "heading": "Unethical",
+        "totalPercentage": 8.333333333333332,
+        "segments": [
+          {
+            "color": "#5c07af",
+            "percentage": 50,
+            "label": "Lack of support",
+            "id": 1
+          },
+          {
+            "color": "#e726a5",
+            "percentage": 50,
+            "label": "Sensitive topic",
+            "id": 2
+          }
+        ]
+      }
+    ]
+  },
+  "insights": [
+    {
+      "augmentation_type": "Informal language",
+      "failure_reason": "The summary does not mention the customer's complaint about the website.",
+      "potential_gaps": [
+        "Lack of coverage for customer complaints about website usability"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover customer complaints about website usability",
+        "Augment conversations with informal language to capture customer frustration"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with informal language to capture customer frustration"
+      ],
+      "example_scenarios": [
+        "Customer complains about website usability and the summary accurately captures the complaint",
+        "Customer expresses frustration with website and the summary accurately captures the tone",
+        "Customer uses informal language to describe website issues and the summary accurately captures the complaint"
+      ]
+    },
+    {
+      "augmentation_type": "Short conversation",
+      "failure_reason": "The summary fails to capture the urgency and impatience expressed by the customer.",
+      "potential_gaps": [
+        "Lack of coverage for urgent and impatient customer conversations"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover urgent and impatient customer conversations",
+        "Augment conversations with short duration to capture urgency and impatience"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with short duration to capture urgency and impatience"
+      ],
+      "example_scenarios": [
+        "Customer expresses urgency and impatience and the summary accurately captures the tone",
+        "Customer uses short phrases to express urgency and impatience and the summary accurately captures the sentiment",
+        "Customer conversation is short and the summary accurately captures the urgency and impatience"
+      ]
+    },
+    {
+      "augmentation_type": "Informal",
+      "failure_reason": "The summary does not mention the customer's specific request for first-class seating and meals.",
+      "potential_gaps": [
+        "Lack of coverage for customer requests for specific seating and meal options"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover customer requests for specific seating and meal options",
+        "Augment conversations with informal language to capture customer requests"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with informal language to capture customer requests"
+      ],
+      "example_scenarios": [
+        "Customer requests specific seating and meal options and the summary accurately captures the request",
+        "Customer uses informal language to make a request and the summary accurately captures the request",
+        "Customer conversation is informal and the summary accurately captures the request"
+      ]
+    },
+    {
+      "augmentation_type": "Noise Level - Noisy Environment",
+      "failure_reason": "Background noise affects clarity, resulting in an incomplete transaction context.",
+      "potential_gaps": [
+        "Lack of coverage for noisy customer environments"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover noisy customer environments",
+        "Augment conversations with background noise to simulate noisy environments"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with background noise to simulate noisy environments"
+      ],
+      "example_scenarios": [
+        "Customer conversation has background noise and the summary accurately captures the transaction context",
+        "Customer conversation is in a noisy environment and the summary accurately captures the transaction context",
+        "Customer conversation is augmented with background noise and the summary accurately captures the transaction context"
+      ]
+    },
+    {
+      "augmentation_type": "Contradiction Handling",
+      "failure_reason": "The model incorrectly assumes payment completion without customer input.",
+      "potential_gaps": [
+        "Lack of coverage for payment contradictions"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover payment contradictions",
+        "Augment conversations with contradictory statements to simulate payment contradictions"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with contradictory statements to simulate payment contradictions"
+      ],
+      "example_scenarios": [
+        "Customer contradicts payment completion and the summary accurately captures the contradiction",
+        "Customer conversation is augmented with contradictory statements and the summary accurately captures the contradiction",
+        "Agent contradicts payment completion and the summary accurately captures the contradiction"
+      ]
+    },
+    {
+      "augmentation_type": "Polite tone",
+      "failure_reason": "The summary incorrectly states that the agent was rude, contradicting the actual tone.",
+      "potential_gaps": [
+        "Lack of coverage for polite customer conversations"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover polite customer conversations",
+        "Augment conversations with polite tone to capture customer politeness"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with polite tone to capture customer politeness"
+      ],
+      "example_scenarios": [
+        "Customer conversation is polite and the summary accurately captures the tone",
+        "Customer uses polite language and the summary accurately captures the sentiment",
+        "Customer conversation is augmented with polite tone and the summary accurately captures the tone"
+      ]
+    },
+    {
+      "augmentation_type": "Formal conversation",
+      "failure_reason": "The name in the summary is incorrectly recorded as 'Jon Smith.'",
+      "potential_gaps": [
+        "Lack of coverage for formal customer conversations"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover formal customer conversations",
+        "Augment conversations with formal language to capture customer formality"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with formal language to capture customer formality"
+      ],
+      "example_scenarios": [
+        "Customer conversation is formal and the summary accurately captures the name",
+        "Customer uses formal language and the summary accurately captures the name",
+        "Customer conversation is augmented with formal language and the summary accurately captures the name"
+      ]
+    },
+    {
+      "augmentation_type": "Time Sensitivity",
+      "failure_reason": "The summary incorrectly mentions the payment is due today.",
+      "potential_gaps": [
+        "Lack of coverage for time-sensitive customer conversations"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover time-sensitive customer conversations",
+        "Augment conversations with time-sensitive language to capture urgency"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with time-sensitive language to capture urgency"
+      ],
+      "example_scenarios": [
+        "Customer conversation is time-sensitive and the summary accurately captures the urgency",
+        "Customer uses time-sensitive language and the summary accurately captures the urgency",
+        "Customer conversation is augmented with time-sensitive language and the summary accurately captures the urgency"
+      ]
+    },
+    {
+      "augmentation_type": "Information delivery",
+      "failure_reason": "The summary omits the contact details provided by the agent.",
+      "potential_gaps": [
+        "Lack of coverage for agent-provided contact details"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover agent-provided contact details",
+        "Augment conversations with information delivery to capture agent-provided details"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with information delivery to capture agent-provided details"
+      ],
+      "example_scenarios": [
+        "Agent provides contact details and the summary accurately captures the information",
+        "Agent uses information delivery and the summary accurately captures the details",
+        "Customer conversation is augmented with information delivery and the summary accurately captures the details"
+      ]
+    },
+    {
+      "augmentation_type": "Vague responses",
+      "failure_reason": "The summary omits the temporary nature of the resolution.",
+      "potential_gaps": [
+        "Lack of coverage for temporary resolutions"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover temporary resolutions",
+        "Augment conversations with vague responses to simulate temporary resolutions"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with vague responses to simulate temporary resolutions"
+      ],
+      "example_scenarios": [
+        "Agent provides a temporary resolution and the summary accurately captures the nature of the resolution",
+        "Agent uses vague language to describe a temporary resolution and the summary accurately captures the nature of the resolution",
+        "Customer conversation is augmented with vague responses and the summary accurately captures the nature of the resolution"
+      ]
+    },
+    {
+      "augmentation_type": "Customer sentiment analysis",
+      "failure_reason": "The summary incorrectly states that the customer was aggressive.",
+      "potential_gaps": [
+        "Lack of coverage for accurate customer sentiment analysis"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover accurate customer sentiment analysis",
+        "Augment conversations with sentiment analysis to capture customer sentiment"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with sentiment analysis to capture customer sentiment"
+      ],
+      "example_scenarios": [
+        "Customer sentiment is accurately captured and the summary reflects the sentiment",
+        "Customer uses aggressive language but the sentiment analysis accurately captures the sentiment",
+        "Customer conversation is augmented with sentiment analysis and the summary accurately captures the sentiment"
+      ]
+    },
+    {
+      "augmentation_type": "Harsh tone",
+      "failure_reason": "The summary fails to capture the agent's harsh tone.",
+      "potential_gaps": [
+        "Lack of coverage for harsh agent tones"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover harsh agent tones",
+        "Augment conversations with harsh tone to capture agent tone"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with harsh tone to capture agent tone"
+      ],
+      "example_scenarios": [
+        "Agent uses harsh tone and the summary accurately captures the tone",
+        "Agent conversation is augmented with harsh tone and the summary accurately captures the tone",
+        "Customer accurately describes agent's harsh tone and the summary reflects the tone"
+      ]
+    },
+    {
+      "augmentation_type": "Urgency",
+      "failure_reason": "The summary fails to maintain logical flow between urgency and resolution.",
+      "potential_gaps": [
+        "Lack of coverage for maintaining logical flow in customer conversations"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover maintaining logical flow in customer conversations",
+        "Augment conversations with urgency to capture logical flow"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with urgency to capture logical flow"
+      ],
+      "example_scenarios": [
+        "Customer conversation has logical flow and the summary accurately captures the flow",
+        "Customer uses urgent language and the summary accurately captures the urgency",
+        "Customer conversation is augmented with urgency and the summary accurately captures the logical flow"
+      ]
+    },
+    {
+      "augmentation_type": "Incomplete conversation",
+      "failure_reason": "The summary ignores the follow-up question from the customer.",
+      "potential_gaps": [
+        "Lack of coverage for complete customer conversations"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover complete customer conversations",
+        "Augment conversations with complete flow to capture follow-up questions"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with complete flow to capture follow-up questions"
+      ],
+      "example_scenarios": [
+        "Customer conversation has complete flow and the summary accurately captures the follow-up question",
+        "Customer asks follow-up question and the summary accurately captures the question",
+        "Customer conversation is augmented with complete flow and the summary accurately captures the follow-up question"
+      ]
+    },
+    {
+      "augmentation_type": "Delayed service",
+      "failure_reason": "The summary does not mention the delay in the refund.",
+      "potential_gaps": [
+        "Lack of coverage for delayed service"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover delayed service",
+        "Augment conversations with delayed service to capture delays"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with delayed service to capture delays"
+      ],
+      "example_scenarios": [
+        "Customer conversation has delayed service and the summary accurately captures the delay",
+        "Customer mentions delay and the summary accurately captures the delay",
+        "Customer conversation is augmented with delayed service and the summary accurately captures the delay"
+      ]
+    },
+    {
+      "augmentation_type": "Escalation handling",
+      "failure_reason": "The summary omits the escalation step.",
+      "potential_gaps": [
+        "Lack of coverage for escalation handling"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover escalation handling",
+        "Augment conversations with escalation handling to capture escalation steps"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with escalation handling to capture escalation steps"
+      ],
+      "example_scenarios": [
+        "Agent escalates issue and the summary accurately captures the escalation step",
+        "Customer conversation is escalated and the summary accurately captures the escalation step",
+        "Customer conversation is augmented with escalation handling and the summary accurately captures the escalation step"
+      ]
+    },
+    {
+      "augmentation_type": "Critical information",
+      "failure_reason": "The summary does not mention the password reset instructions.",
+      "potential_gaps": [
+        "Lack of coverage for critical information delivery"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover critical information delivery",
+        "Augment conversations with critical information delivery to capture important details"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with critical information delivery to capture important details"
+      ],
+      "example_scenarios": [
+        "Agent provides critical information and the summary accurately captures the details",
+        "Customer asks for critical information and the summary accurately captures the details",
+        "Customer conversation is augmented with critical information delivery and the summary accurately captures the details"
+      ]
+    },
+    {
+      "augmentation_type": "Instruction delivery",
+      "failure_reason": "The summary fails to convey the critical steps shared by the agent.",
+      "potential_gaps": [
+        "Lack of coverage for clear instruction delivery"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover clear instruction delivery",
+        "Augment conversations with clear instruction delivery to capture important steps"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with clear instruction delivery to capture important steps"
+      ],
+      "example_scenarios": [
+        "Agent provides clear instructions and the summary accurately captures the steps",
+        "Customer asks for clear instructions and the summary accurately captures the steps",
+        "Customer conversation is augmented with clear instruction delivery and the summary accurately captures the steps"
+      ]
+    },
+    {
+      "augmentation_type": "Repetitive requests",
+      "failure_reason": "The summary repeats the customer's question unnecessarily.",
+      "potential_gaps": [
+        "Lack of coverage for avoiding redundancy in customer conversations"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover avoiding redundancy in customer conversations",
+        "Augment conversations with avoiding redundancy to capture efficient communication"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with avoiding redundancy to capture efficient communication"
+      ],
+      "example_scenarios": [
+        "Customer conversation avoids redundancy and the summary accurately captures the efficient communication",
+        "Customer asks a question once and the summary accurately captures the question",
+        "Customer conversation is augmented with avoiding redundancy and the summary accurately captures the efficient communication"
+      ]
+    },
+    {
+      "augmentation_type": "Pricing details",
+      "failure_reason": "The summary redundantly lists both prices without distinction.",
+      "potential_gaps": [
+        "Lack of coverage for clear pricing details"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover clear pricing details",
+        "Augment conversations with clear pricing details to capture important information"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with clear pricing details to capture important information"
+      ],
+      "example_scenarios": [
+        "Agent provides clear pricing details and the summary accurately captures the information",
+        "Customer asks for clear pricing details and the summary accurately captures the information",
+        "Customer conversation is augmented with clear pricing details and the summary accurately captures the information"
+      ]
+    },
+    {
+      "augmentation_type": "Legal compliance",
+      "failure_reason": "The summary implies potential criminal activity when there is none.",
+      "potential_gaps": [
+        "Lack of coverage for legal compliance"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover legal compliance",
+        "Augment conversations with legal compliance to avoid unnecessary implications"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with legal compliance to avoid unnecessary implications"
+      ],
+      "example_scenarios": [
+        "Agent provides legal compliance and the summary accurately reflects the compliance",
+        "Customer asks about legal compliance and the summary accurately reflects the compliance",
+        "Customer conversation is augmented with legal compliance and the summary accurately reflects the compliance"
+      ]
+    },
+    {
+      "augmentation_type": "Policy compliance",
+      "failure_reason": "The summary raises unnecessary doubt about legality.",
+      "potential_gaps": [
+        "Lack of coverage for policy compliance"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover policy compliance",
+        "Augment conversations with policy compliance to avoid unnecessary doubt"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with policy compliance to avoid unnecessary doubt"
+      ],
+      "example_scenarios": [
+        "Agent provides policy compliance and the summary accurately reflects the compliance",
+        "Customer asks about policy compliance and the summary accurately reflects the compliance",
+        "Customer conversation is augmented with policy compliance and the summary accurately reflects the compliance"
+      ]
+    },
+    {
+      "augmentation_type": "Lack of support",
+      "failure_reason": "The summary fails to reflect the ethical implications of denying help.",
+      "potential_gaps": [
+        "Lack of coverage for ethical implications of denying help"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover ethical implications of denying help",
+        "Augment conversations with ethical considerations to capture the impact of denying help"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with ethical considerations to capture the impact of denying help"
+      ],
+      "example_scenarios": [
+        "Agent denies help and the summary accurately reflects the ethical implications",
+        "Customer conversation includes ethical considerations and the summary accurately reflects the impact of denying help",
+        "Customer conversation is augmented with ethical considerations and the summary accurately reflects the impact of denying help"
+      ]
+    },
+    {
+      "augmentation_type": "Sensitive topic",
+      "failure_reason": "The summary does not address the customer's concern about discrimination.",
+      "potential_gaps": [
+        "Lack of coverage for sensitive topics"
+      ],
+      "actionable_insights": [
+        "Include test cases that cover sensitive topics",
+        "Augment conversations with sensitivity to capture important concerns"
+      ],
+      "priority_augmentations": [
+        "Augment conversations with sensitivity to capture important concerns"
+      ],
+      "example_scenarios": [
+        "Customer conversation includes sensitive topic and the summary accurately reflects the concern",
+        "Customer expresses concern about discrimination and the summary accurately reflects the concern",
+        "Customer conversation is augmented with sensitivity and the summary accurately reflects the concern"
+      ]
+    }
+  ]
+}]
